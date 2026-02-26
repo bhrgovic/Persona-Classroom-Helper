@@ -1,0 +1,57 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+.webpack/
+.vite/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Puppeteer / Chromium cache
+# =========================
+.cache/
+.puppeteer/
+
+# =========================
+# Generated data (optional)
+# =========================
+scraper/p3r.json
+scraper/p4g.json
+scraper/p5r.json
+
+# If you regenerate merged data automatically:
+# webapp/src/data/persona-data.json
